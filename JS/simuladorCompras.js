@@ -106,7 +106,7 @@ function simuladorCompra() {
       `¿Qué producto desea? Escoja la letra correspondiente:\nA- ${listaProductos[0].nombre}, quedan disponibles: ${listaProductos[0].cantidad}
       \nB- ${listaProductos[1].nombre}, quedan disponibles: ${listaProductos[1].cantidad}
       \nC- ${listaProductos[2].nombre}, quedan disponibles: ${listaProductos[2].cantidad}
-      \nSi desea salir, escriba 'F' o puede oprimir el botón cancelar.\nPara ver su carrito de compras ingrese "ver carrito"`
+      \nSi desea salir, escriba 'salir' o puede oprimir el botón cancelar.\nPara ver su carrito de compras ingrese "ver carrito"`
     );
 
     if (rtaUsuario === null) {
